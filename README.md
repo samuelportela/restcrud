@@ -32,3 +32,10 @@ RESTful CRUD application to manage Locations. This application has the following
 
 ### To remove a specific location by id
 > curl -X DELETE 'http://localhost:8080/restcrud/location/api/delete/1'
+
+
+---
+# Build Process
+
+### To build this project
+> mvn package
