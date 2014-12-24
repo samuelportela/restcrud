@@ -2,13 +2,13 @@
 <head>
 	<title>restcrud</title>
 	
-	<link rel="stylesheet" href="/restcrud/web-resources/css/pure-0.4.2.css" />
-	<link rel="stylesheet" href="/restcrud/web-resources/css/font-awesome-4.0.3/css/font-awesome.css" />
-	<link rel="stylesheet" href="/restcrud/web-resources/css/jquery-ui-1.10.4.custom.css" />
-	<link rel="stylesheet" href="/restcrud/web-resources/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="/restcrud/web-resources/css/bootstrap-theme.min.css" />
-	<link rel="stylesheet" href="/restcrud/web-resources/css/restcrud-common.css" />
-	<link rel="stylesheet" href="/restcrud/web-resources/css/location.css" />
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/web-resources/css/pure-0.4.2.css" />
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/web-resources/css/font-awesome-4.0.3/css/font-awesome.css" />
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/web-resources/css/jquery-ui-1.10.4.custom.css" />
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/web-resources/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/web-resources/css/bootstrap-theme.min.css" />
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/web-resources/css/restcrud-common.css" />
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/web-resources/css/location.css" />
 </head>
 
 <body>
@@ -90,9 +90,9 @@
 
 	</div>
 
-	<script type="text/javascript" src="/restcrud/web-resources/js/lib/jquery-1.10.2.js"></script>
-	<script type="text/javascript" src="/restcrud/web-resources/js/lib/jquery-ui-1.10.4.custom.js"></script>
-	<script type="text/javascript" src="/restcrud/web-resources/js/lib/bootstrap.min.js"></script>
-	<script type="text/javascript" src="/restcrud/web-resources/js/location.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/web-resources/js/lib/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/web-resources/js/lib/jquery-ui-1.10.4.custom.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/web-resources/js/lib/bootstrap.min.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/web-resources/js/location.js"></script>
 </body>
 </html>
