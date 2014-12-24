@@ -8,11 +8,11 @@
 	<name>restcrud Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<properties>
-		<spring-version>4.0.3.RELEASE</spring-version>
-		<hibernate-version>4.2.7.Final</hibernate-version>
+		<spring-version>4.1.3.RELEASE</spring-version>
+		<hibernate-version>4.3.7.Final</hibernate-version>
 		<apache-connection-pooling-version>1.4</apache-connection-pooling-version>
 		<hsqldb-version>2.3.2</hsqldb-version>
-		<jackson-databind-version>2.2.3</jackson-databind-version>
+		<jackson-databind-version>2.4.4</jackson-databind-version>
 	</properties>
 	<dependencies>
 		<!-- Spring -->
