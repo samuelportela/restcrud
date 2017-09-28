@@ -19,26 +19,26 @@ P.S.: The application uses Hibernate for persistence, but to make the deployment
 ---
 # Demo
 
-If you want to see the application running, [click here](http://restcrud-samuelportela.rhcloud.com).
+If you want to see the application running, [click here](http://restcrud-samuelportela.1d35.starter-us-east-1.openshiftapps.com/restcrud/).
 
 
 ---
 # REST API
 
 ### To list all locations
-> curl -X GET 'http://restcrud-samuelportela.rhcloud.com/location/api/list'
+> curl -X GET 'http://restcrud-samuelportela.1d35.starter-us-east-1.openshiftapps.com/restcrud/location/api/list'
 
 ### To create a location
-> curl -X POST 'http://restcrud-samuelportela.rhcloud.com/location/api/save' --data 'name=Shopping&latitude=-3.794692&longitude=-38.479832'
+> curl -X POST 'http://restcrud-samuelportela.1d35.starter-us-east-1.openshiftapps.com/restcrud/location/api/save' --data 'name=Shopping&latitude=-3.794692&longitude=-38.479832'
 
 ### To retrieve a specific location by id
-> curl -X GET 'http://restcrud-samuelportela.rhcloud.com/location/api/get/1'
+> curl -X GET 'http://restcrud-samuelportela.1d35.starter-us-east-1.openshiftapps.com/restcrud/location/api/get/1'
 
 ### To update one location
-> curl -X POST 'http://restcrud-samuelportela.rhcloud.com/location/api/save' --data 'name=Shopping&latitude=-3.741075&longitude=-38.471299&id=1'
+> curl -X POST 'http://restcrud-samuelportela.1d35.starter-us-east-1.openshiftapps.com/restcrud/location/api/save' --data 'name=Shopping&latitude=-3.741075&longitude=-38.471299&id=1'
 
 ### To remove a specific location by id
-> curl -X DELETE 'http://restcrud-samuelportela.rhcloud.com/location/api/delete/1'
+> curl -X DELETE 'http://restcrud-samuelportela.1d35.starter-us-east-1.openshiftapps.com/restcrud/location/api/delete/1'
 
 
 ---
